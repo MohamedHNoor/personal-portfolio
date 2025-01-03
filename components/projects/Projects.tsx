@@ -8,14 +8,14 @@ function Projects() {
     <section className='pt-20'>
       <SectionTitle
         subTitle='Projects'
-        description='Check out what projects I have created'
+        description="Whether you have a mobile app idea that needs to come to life or a website that requires a facelift, I'm here to turn your digital dreams into reality."
       />
-      <div className='py-12 grid md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-12 grid-cols-1 '>
+      <div className='py-12 grid md:grid-cols-3 gap-4 sm:gap-6 grid-cols-1 '>
         {projects.map((item) => (
           <a
             href={item.link}
             key={item.id}
-            className='group block border-b-2 border-muted mt-6 p-6 rounded-2xl hover:border-blue-400 transition-colors duration-300'
+            className='group block border-b-2 border-muted p-6 rounded-2xl hover:border-blue-400 transition-colors duration-300'
             target='_blank'
           >
             <div className='aspect-w-16 aspect-h-12 overflow-hidden rounded-2xl relative'>
