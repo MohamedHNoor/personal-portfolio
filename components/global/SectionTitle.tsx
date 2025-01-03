@@ -1,5 +1,3 @@
-import { Separator } from '../ui/separator'
-
 function SectionTitle({
   title,
   subTitle,

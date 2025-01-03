@@ -10,9 +10,9 @@ export function Hero() {
           Welcome to my Software <br /> Development Portfolio!
         </h1>
         <p className='text-2xl lg:text-3xl font-light mb-8 text-muted-foreground leading-relaxed'>
-          I'm Mohamed Noor, a passionate software developer based in Wellington
-          New Zealand 🇳🇿.
-          <br /> Here, you'll get a glimpse of my journey in the world of
+          I&apos;m Mohamed Noor, a passionate software developer based in
+          Wellington New Zealand 🇳🇿.
+          <br /> Here, you&apos;ll get a glimpse of my journey in the world of
           software development, where creativity meets functionality.
         </p>
 
