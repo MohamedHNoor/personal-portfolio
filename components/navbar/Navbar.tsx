@@ -6,7 +6,7 @@ import DesktopNavigationMenu from './DesktopNavigationMenu'
 
 function Navbar() {
   return (
-    <nav className='sticky top-0 z-50 shadow-sm'>
+    <nav className='sticky top-0 z-50 shadow-sm backdrop-blur-md bg-muted'>
       <Container className='flex flex-row justify-between items-center  gap-4 py-8'>
         {/* Logo */}
         <Logo />

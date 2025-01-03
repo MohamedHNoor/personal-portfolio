@@ -22,7 +22,7 @@ function DesktopNavigationMenu() {
               <Link href={link.href} legacyBehavior passHref>
                 <NavigationMenuLink
                   active={pathname === link.href}
-                  className={`${navigationMenuTriggerStyle()} capitalize font-semibold text-lg hover:text-blue-400`}
+                  className={`${navigationMenuTriggerStyle()} capitalize font-semibold text-lg hover:text-blue-400 bg-muted`}
                 >
                   {link.label}
                 </NavigationMenuLink>

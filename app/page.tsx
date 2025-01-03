@@ -1,9 +1,14 @@
+import { Hero } from '@/components/hero/Hero'
+import Skills from '@/components/skills/Skills'
+import Services from '@/components/services/Services'
 import { Button } from '@/components/ui/button'
 
 export default function Home() {
   return (
-    <main className='text-4xl p-8'>
-      <Button>Click me</Button>
+    <main>
+      <Hero />
+      <Services />
+      <Skills />
     </main>
   )
 }
