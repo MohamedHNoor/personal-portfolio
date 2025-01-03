@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import { projects } from '@/utils/projects'
 import SectionTitle from '@/components/global/SectionTitle'
-import { Card, CardContent, CardFooter, CardHeader } from '../ui/card'
 
 function Projects() {
   return (
